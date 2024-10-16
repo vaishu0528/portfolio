@@ -1,0 +1,173 @@
+body
+{
+    background: linear-gradient(45deg,rgb(0, 217, 255),rgb(0, 89, 255),rgb(225, 0, 255));
+    background-size: 100%;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background: linear-gradient(49deg,rgb(18, 165, 190),rgb(13, 77, 196));
+    border: 1px solid rgb(143, 212, 224);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.navbar span
+{
+    font-family: "Brush Script MT",cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 70px; 
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    column-gap: 70px;
+    align-items:center;
+    margin-right: 100px;
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navbar a:hover
+{
+    color:#00030a;
+    border-bottom: 1px solid rgb(151, 4, 36);
+    
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid rgb(127, 184, 194);
+    border-radius: 15px;
+    height: 550px;
+    align-items: center;
+    background: linear-gradient(46deg,rgb(0, 217, 255),rgb(0, 89, 255),rgb(225, 0, 255));
+}
+
+
+.info i:hover{
+    opacity: 0.6;
+    transform: scale(1.4);
+    
+    
+}
+.info .item1
+{
+    font-family: "Lucida Handwriting",cursive;
+   text-align: center;
+   font-size: 300%;
+   font-weight: bolder; 
+   margin-left: 40px;
+}
+.info .item1 span
+{
+    color: rgb(151, 4, 36);
+    
+}
+
+
+.item2 img{
+    width: 300px;
+   
+    border-radius: 50%;
+    
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(127, 184, 194);
+    border-radius: 15px;
+    height: 800px;
+    background: linear-gradient(46deg,rgb(12, 180, 209),rgb(3, 45, 122));
+    margin: 20px 0px;
+    padding: 1px;
+    color: aliceblue;
+}
+.about h1{
+    font-family: "Lucida Handwriting",cursive;
+}
+.profile img{
+    height: 700px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 50px;
+    
+    
+}
+.aboutme{
+    border: 5px solid rgb(151, 4, 36);
+    border-radius: 15px;
+    margin-right: 100px;
+    background: linear-gradient(46deg,rgb(11, 158, 184),rgb(2, 37, 102));
+}
+.me {
+    
+    width: 790px;
+    margin: 20px;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(127, 184, 194);
+    border-radius: 15px;
+    background: linear-gradient(46deg,rgb(12, 180, 209),rgb(22, 76, 177));
+    margin: 10px 0px;
+    padding: 40px;
+}
+.contact .icon{
+    font-size: 40px;
+}
+.contact .icon i:hover{
+    opacity: 0.6;
+    transform: scale(1.4);
+}
+
+.form input{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+}
+.form textarea{
+    width: 600px;
+    border-radius: 10px;
+
+}
+.form button{
+    background-color: rgb(151, 4, 36);;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.form button:hover{
+    transform: scale(1.1);
+}
+
+.company
+{
+    height: 115px;
+    text-align: left; 
+    column-gap:200px;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 20px;
+    border: 2px solid rgb(127, 184, 194);
+    margin-top: 10px;
+}
